@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 10px;
+}
+table {
+  width: 60%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table thead:first-child {
+  background-color: #d6d6d6;
+}
+
+table th,
+tr td {
+  border: 1px solid black;
+  padding: 5px;
+}
